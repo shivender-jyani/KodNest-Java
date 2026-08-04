@@ -1,5 +1,5 @@
 
-public class firstJavaProgram {
+public class printing {
 
     public static void main(String[] args) {
         System.out.println("Monday");
@@ -9,6 +9,5 @@ public class firstJavaProgram {
         System.out.print("friday");
         System.out.println("Saturday");
         System.out.print("Sunday");
-
     }
 }
