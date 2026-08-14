@@ -1,9 +1,8 @@
 
-public class StudentApplication {
+public class StudentApplication2 {
 
     public static void main(String[] args) {
-        Student s1 = new Student();
-        s1.input("Rani", 19, 4.5);
+        Student s1 = new Student("Raja", 18, 5.5);
         s1.display();
     }
 }
@@ -14,7 +13,7 @@ class Student {
     int age;
     double height;
 
-    void input(String name, int age, double height) {
+    Student(String name, int age, double height) {
         this.name = name;
         this.age = age;
         this.height = height;
